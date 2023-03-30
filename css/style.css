@@ -1,5 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Tillana:wght@400;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: 'Courgette', cursive; */
+    font-family: 'Tillana', cursive;
+}
+
+.image-container {
+    background-image: url("https://medmunch.com/wp-content/uploads/2021/05/Obesity-Diet-Plan.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+.card {
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(29, 21, 21);
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.card-header {
+    background: #826bde;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+
+}
+
+.label-text {
+    color: rgb(151, 237, 167);
+    font-size: 18px;
+    margin-left: 12px;
+
+}
+
+.form-control {
+    width: 95%;
+    padding: 10px;
+    margin: 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    margin-left: 15px;
+    background-color: #0d9bdd;
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: green;
+    color: white;
+    transition-duration: .5s;
+}
+
+.card-footer {
+    background: #b2e77e;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
 }
